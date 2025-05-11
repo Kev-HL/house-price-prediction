@@ -1,16 +1,25 @@
 # Byte-compiled / cache
-__pycache__/          # Python cache folders
-*.py[cod]             # Compiled Python files (.pyc, .pyo, etc.)
-*.ipynb_checkpoints/  # Temporary files from Jupyter notebooks
+# Python cache folders
+__pycache__/
+# Compiled Python files (.pyc, .pyo, etc.)
+*.py[cod]
+# Temporary files from Jupyter notebooks
+*.ipynb_checkpoints/
 
 # Data
-/data/raw/            # Don't track original datasets
-/data/processed/      # Don't track cleaned datasets
-/models/              # Trained model files
+# Don't track original datasets
+/data/raw/
+# Don't track cleaned datasets
+/data/processed/
+# Don't track trained model files
+/models/
 
 # VSCode
-.vscode/              # Editor-specific settings
+# Editor-specific settings
+.vscode/
 
 # Environment
-.env                  # Environment variables files
-*.env                 # Catch other .env-like files
+# Environment variables files
+.env
+# Catch other .env-like files
+*.env
