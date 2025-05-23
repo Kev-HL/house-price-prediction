@@ -1,14 +1,23 @@
-# TEMP SKELETON
-
 # House Price Prediction
 
 This project predicts housing sale prices using data from the Kaggle competition [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 
+The datasets **train.csv** and **test.csv**, as well as the text file **data_description.txt** can be found on the competitions page.
+
+
 ## Project Overview
 
-- Data cleaning and feature engineering
-- Model training with regression algorithms (e.g., XGBoost, Linear Regression)
-- Model evaluation and cross-validation
+Main notebook containing whole process with:
+- EDA, data cleaning and feature engineering
+- Model training with different types of models (Ridge regression, Random Forest, CatBoost Regressor, standard MLP, and TabTransformer-lite)
+- Model evaluation and comparison
+- Final predictions
+
+Secondary notebook with:
+- Streamlined data processing
+- Chosen model training
+- Final predictions
+
 
 ## Folder Structure
 
@@ -16,6 +25,10 @@ This project predicts housing sale prices using data from the Kaggle competition
 - `notebooks/`: Jupyter notebooks for EDA and modeling
 - `src/`: Python scripts for reusable code
 - `models/`: saved trained models
-- `outputs/`: plots, prediction results
+- `outputs/`: prediction results
+
 
 ## How to Run
+
+All code can be sequentially executed in the notebooks.
+File paths are relative and should work with the same folder structure.

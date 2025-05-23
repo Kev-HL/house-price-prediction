@@ -1,7 +1,10 @@
+jupyter
 pandas
 numpy
 matplotlib
 seaborn
-jupyter
-tensorflow
 sklearn
+joblib
+tensorflow_decision_forests
+catboost
+tensorflow

@@ -13,6 +13,8 @@ __pycache__/
 /data/processed/
 # Don't track trained model files
 /models/
+# Don't track catboost metadata
+/notebooks/catboost_info/
 
 # VSCode
 # Editor-specific settings
