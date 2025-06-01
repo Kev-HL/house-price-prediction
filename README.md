@@ -9,7 +9,7 @@ The datasets **train.csv** and **test.csv**, as well as the text file **data_des
 
 Main notebook containing whole process with:
 - EDA, data cleaning and feature engineering
-- Model training with different types of models (Ridge regression, Random Forest, CatBoost Regressor, standard MLP, and TabTransformer-lite)
+- Model training with different types of models
 - Model evaluation and comparison
 - Final predictions
 
