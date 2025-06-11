@@ -22,7 +22,8 @@ A second, streamlined notebook **housing_submission.ipynb** is provided to repro
 ## Key Results
 
 - `Best model:` Catboost regressor  
-- `RMSE (log scale):` 0.1278
+- `RMSE (log scale, internal dev set):` 0.1278
+- `RMSE (log scale, Kaggle test set):` 0.1215
 - `Top features:` TotalSF, QualityIndex, TotalFinSF, KitchenQual  
 
 
