@@ -3,6 +3,7 @@ pandas
 numpy
 matplotlib
 seaborn
+statsmodels
 sklearn
 joblib
 tensorflow_decision_forests

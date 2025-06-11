@@ -15,8 +15,10 @@ __pycache__/
 /models/
 # Don't track catboost metadata
 /notebooks/catboost_info/
-# Don't track model comparison table
+# Don't track model comparison table, or feature engineering logs
 /outputs/comparison_summary.csv
+/outputs/transform_log.csv
+/outputs/drop_log.csv
 
 # VSCode
 # Editor-specific settings
