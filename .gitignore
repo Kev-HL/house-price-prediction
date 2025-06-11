@@ -19,6 +19,8 @@ __pycache__/
 /outputs/comparison_summary.csv
 /outputs/transform_log.csv
 /outputs/drop_log.csv
+# Don't track final submission files
+/outputs/submission.csv
 
 # VSCode
 # Editor-specific settings
